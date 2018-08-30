@@ -1,0 +1,48 @@
+﻿
+@model IEnumerable<Product>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="cache-control" content="public" />
+    <meta http-equiv="cache-control" content="max-age=900" />
+    <meta http-equiv="pragma" content="private" />
+    <title>Index</title>
+    @*<link href="~/css/first.css" rel="stylesheet" />
+        <link href="~/css/second.css" rel="stylesheet" />*@
+
+    <link href="~/css/bundle-style.min.css" rel="stylesheet" />
+    <link href="~/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="p-1">
+    <h3 class="text-center">Working with Visual Studio</h3>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Product p in Model)
+            {
+                <tr>
+                    <td>@p?.Name</td>
+                    <td>@p?.Price</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="text-center">
+        <a asp-action="AddProduct" class="btn btn-primary">
+            Add New Product
+        </a>
+    </div>
+    <script src="~/js/bundle.min.js"></script>
+</body>
+</html>
