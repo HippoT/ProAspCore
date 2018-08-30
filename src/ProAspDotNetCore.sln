@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithRazor", "Working
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithVisualStudio", "WorkingWithVisualStudio\WorkingWithVisualStudio.csproj", "{0D261B27-225A-4F94-A4A4-9E3AE6C06C80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{1FF37F45-A0E5-40E8-BDFE-DF56BD028955}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{1FF37F45-A0E5-40E8-BDFE-DF56BD028955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore", "SportsStore\SportsStore.csproj", "{3F5CE65B-06CF-4BC9-80FA-F86F2393FF71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{1FF37F45-A0E5-40E8-BDFE-DF56BD028955}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FF37F45-A0E5-40E8-BDFE-DF56BD028955}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FF37F45-A0E5-40E8-BDFE-DF56BD028955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F5CE65B-06CF-4BC9-80FA-F86F2393FF71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5CE65B-06CF-4BC9-80FA-F86F2393FF71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5CE65B-06CF-4BC9-80FA-F86F2393FF71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5CE65B-06CF-4BC9-80FA-F86F2393FF71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
