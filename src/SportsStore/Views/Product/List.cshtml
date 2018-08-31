@@ -1,11 +1,11 @@
 ﻿
-@model IEnumerable<Product>
+@model ProductsListViewModel
 @{
     ViewBag.Title = "List";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@foreach(var p in Model)
+@foreach(var p in Model.Products)
 {
     <div>
         <h3>@p.Name</h3>
@@ -13,3 +13,5 @@
         <h4>@($"{p.Price:C}")</h4>
     </div>
 }
+
+    <div page-model="@Model.PagingInfo" page-action="List"></div>
