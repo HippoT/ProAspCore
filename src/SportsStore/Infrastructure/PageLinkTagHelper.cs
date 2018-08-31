@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace SportsStore.Infrastructure
 {
-    [HtmlTargetElement("div", Attributes = "page-action")]
+    [HtmlTargetElement("div", Attributes = "page-model")]
     public class PageLinkTagHelper : TagHelper
     {
         private IUrlHelperFactory urlHelperFactory;
