@@ -47,6 +47,8 @@ namespace SportsStore
                     template: "{controller=Product}/{action=List}/{id?}");
             });
 
+            SeedData.EnsurePopulated(app);
+
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Hello World!");
