@@ -237,3 +237,8 @@ src/EmplasPortal/EmplasPortal/uploads/
 src/EmplasPortal/EmplasPortal/Properties/AssemblyInfo.cs
 src/EmplasPortal/DITLib/Properties/AssemblyInfo.cs
 src/EmplasPortal/Eva.API/Properties/AssemblyInfo.cs
+*.ide-shm
+*.ide-shm
+*.ide-wal
+*.ide
+*.ide-shm
