@@ -4,10 +4,22 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/twitter-bootstrap/css/bootstrap.min.css"/>
 </head>
 <body>
-    <div>
-        @RenderBody()
+    <div class="navbar navbar-inverse bg-inverse" role="navigation">
+        <a class="navbar-brand" href="#">SPORTS STORE</a>
     </div>
+    <div class="row m-1 p-1">
+        <div id="categories" class="col-3">
+            Put something usefule here later
+        </div>
+        <div class="col-9">
+            @RenderBody()
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/twitter-bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
