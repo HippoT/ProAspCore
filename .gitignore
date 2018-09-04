@@ -7,7 +7,7 @@
 *.userosscache
 *.sln.docstates
 *.lock
-ProAspCore/
+ProAspDotNetCore/
 
 # Build results
 [Dd]ebug/
