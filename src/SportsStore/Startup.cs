@@ -27,6 +27,8 @@ namespace SportsStore
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration["Data:SportStoreProducts:ConnectionStrings"]));
 
             services.AddTransient<IProductRepository, EFProductRepository>();
+            services.AddMemoryCache();
+            services.AddSession();
             services.AddMvc();
         }
 
@@ -40,6 +42,7 @@ namespace SportsStore
 
             app.UseStatusCodePages();
             app.UseStaticFiles();
+            app.UseSession();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
