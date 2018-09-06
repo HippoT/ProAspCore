@@ -5,18 +5,27 @@
   "libraries": [
     {
       "library": "twitter-bootstrap@4.0.0-alpha.6",
-      "destination": "wwwroot/lib/twitter-bootstrap/",
-      "files": [
-        "css/bootstrap.min.css",
-        "js/bootstrap.bundle.min.js",
-        "css/bootstrap.min.css.map",
-        "js/bootstrap.bundle.min.js.map"
-      ]
+      "destination": "wwwroot/lib/twitter-bootstrap/"
     },
     {
       "library": "jquery@3.3.1",
       "destination": "wwwroot/lib/jquery/",
-      "files": ["jquery.min.js"]
+      "files": [ "jquery.min.js" ]
+    },
+
+    {
+      "library": "font-awesome@4.7.0",
+      "destination": "wwwroot/lib/font/",
+      "files": [
+        "css/font-awesome.css",
+        "fonts/fontawesome-webfont.eot",
+        "fonts/fontawesome-webfont.svg",
+        "fonts/fontawesome-webfont.ttf",
+        "fonts/fontawesome-webfont.woff",
+        "fonts/fontawesome-webfont.woff2",
+        "fonts/FontAwesome.otf",
+        "css/font-awesome.min.css"
+      ]
     }
   ]
 }
