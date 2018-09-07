@@ -26,6 +26,15 @@
         "fonts/FontAwesome.otf",
         "css/font-awesome.min.css"
       ]
+    },
+    {
+      "library": "jquery-validate@1.17.0",
+      "destination": "wwwroot/lib/jquery-validate/",
+      "files": [ "jquery.validate.min.js" ]
+    },
+    {
+      "library": "jquery-validation-unobtrusive@3.2.10",
+      "destination": "wwwroot/lib/jquery-validate/"
     }
   ]
 }
