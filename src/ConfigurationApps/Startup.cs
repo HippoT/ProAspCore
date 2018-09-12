@@ -60,7 +60,13 @@ namespace ConfigurationApps
             app.UseStaticFiles();
             
             
-            app.UseMvcWithDefaultRoute();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller}/{action}",
+                    defaults: new { Controllers = "Admin", action = "Index"});
+            });
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Hello World!");
