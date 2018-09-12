@@ -14,7 +14,6 @@ namespace ConfigurationApps
     {
         public static void Main(string[] args)
         {
-            var a = nameof(ConfigurationApps);
             CreateWebHostBuilder(args).Build().Run();
         }
 
