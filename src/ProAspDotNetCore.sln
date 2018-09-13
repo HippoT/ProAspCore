@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPage", "RazorPage\Razo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Routes", "Routes\Routes.csproj", "{A49C0990-B901-4B6A-8743-B76A80EA58DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\Controllers.csproj", "{2866F703-51CC-435F-AE1E-F194ADBB818C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controllers", "Controllers\Controllers.csproj", "{2866F703-51CC-435F-AE1E-F194ADBB818C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI", "DI\DI.csproj", "{630FF9AD-52F2-4DB8-94AF-7488E8CCFB40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{2866F703-51CC-435F-AE1E-F194ADBB818C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2866F703-51CC-435F-AE1E-F194ADBB818C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2866F703-51CC-435F-AE1E-F194ADBB818C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630FF9AD-52F2-4DB8-94AF-7488E8CCFB40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630FF9AD-52F2-4DB8-94AF-7488E8CCFB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630FF9AD-52F2-4DB8-94AF-7488E8CCFB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630FF9AD-52F2-4DB8-94AF-7488E8CCFB40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
