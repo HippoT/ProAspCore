@@ -1,0 +1,19 @@
+﻿@model Dictionary<string, string>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DictionaryResult</title>
+</head>
+<body>
+    @foreach(var key in Model.Keys)
+        {
+            <p>@Model[key]</p>
+        }
+</body>
+</html>
