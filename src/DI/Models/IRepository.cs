@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DI.Models
 {
-    interface IRepository
+    public interface IRepository
     {
         IEnumerable<Product> Products { get; }
 
