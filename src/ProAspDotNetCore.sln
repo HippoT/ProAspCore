@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Routes", "Routes\Routes.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controllers", "Controllers\Controllers.csproj", "{2866F703-51CC-435F-AE1E-F194ADBB818C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI", "DI\DI.csproj", "{630FF9AD-52F2-4DB8-94AF-7488E8CCFB40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DI", "DI\DI.csproj", "{630FF9AD-52F2-4DB8-94AF-7488E8CCFB40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filter", "Filter\Filter.csproj", "{C0760E85-B662-4CF9-A8EE-D186E6FDDE4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{630FF9AD-52F2-4DB8-94AF-7488E8CCFB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{630FF9AD-52F2-4DB8-94AF-7488E8CCFB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{630FF9AD-52F2-4DB8-94AF-7488E8CCFB40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0760E85-B662-4CF9-A8EE-D186E6FDDE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0760E85-B662-4CF9-A8EE-D186E6FDDE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0760E85-B662-4CF9-A8EE-D186E6FDDE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0760E85-B662-4CF9-A8EE-D186E6FDDE4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

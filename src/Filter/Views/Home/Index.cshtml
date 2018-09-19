@@ -1,0 +1,33 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @if(Model is string)
+    {
+        @Model
+    }
+    else if(Model is IDictionary<string, string>)
+    {
+        var dict = Model as IDictionary<string, string>;
+        <table>
+            <tbody>
+                @foreach (var item in dict)
+                {
+                    <tr>
+                        <td>@item.Key</td>
+                        <td>@item.Value</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</body>
+</html>
