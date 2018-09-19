@@ -8,6 +8,7 @@ namespace DI.Models
     public class MemoryRepository : IRepository
     {
         private Dictionary<string, Product> products;
+        private string guid = System.Guid.NewGuid().ToString();
 
         public IEnumerable<Product> Products => products.Values;
 
@@ -26,5 +27,7 @@ namespace DI.Models
         public void AddProduct(Product product) => products.Add(product.Name, product);
 
         public void DeleteProduct(Product product) => products.Remove(product.Name);
+
+        public override string ToString() { return guid; }
     }
 }
