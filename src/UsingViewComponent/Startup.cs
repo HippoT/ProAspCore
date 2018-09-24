@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using UsingViewComponent.Models;
 
 namespace UsingViewComponent
 {
@@ -15,6 +16,8 @@ namespace UsingViewComponent
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IRepository, MemoryRepository>();
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -24,6 +27,10 @@ namespace UsingViewComponent
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseStaticFiles();
+            app.UseStatusCodePages();
+            app.UseMvcWithDefaultRoute();
 
             app.Run(async (context) =>
             {
