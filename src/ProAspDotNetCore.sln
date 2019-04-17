@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Filter", "Filter\Filter.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiControllers", "ApiControllers\ApiControllers.csproj", "{1876CFB4-2421-48F7-B948-A0EA8851DE12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingViewComponent", "UsingViewComponent\UsingViewComponent.csproj", "{36D20B19-3318-498C-859D-AC9A37FEA172}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingViewComponent", "UsingViewComponent\UsingViewComponent.csproj", "{36D20B19-3318-498C-859D-AC9A37FEA172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreIdentity", "CoreIdentity\CoreIdentity.csproj", "{1A9C9635-A4CD-4468-8152-5EC1409CEB11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{36D20B19-3318-498C-859D-AC9A37FEA172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36D20B19-3318-498C-859D-AC9A37FEA172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36D20B19-3318-498C-859D-AC9A37FEA172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A9C9635-A4CD-4468-8152-5EC1409CEB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9C9635-A4CD-4468-8152-5EC1409CEB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9C9635-A4CD-4468-8152-5EC1409CEB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9C9635-A4CD-4468-8152-5EC1409CEB11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
